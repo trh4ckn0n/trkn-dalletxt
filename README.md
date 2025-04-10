@@ -1,8 +1,9 @@
 # 🖥️ logo-generator-cli
 
+![logo généré](https://github.com/trh4ckn0n/trkn-dalletxt/blob/main/file-UETRhDsEArgP4nvX2cuFBF.WEBP)
+
 Générateur de logos automatisés en ligne de commande via DALL·E 3 & Python.
 
-![exemple](https://yourdomain.com/trknlog_1.png)
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue?style=flat-square)
 ![DALL·E](https://img.shields.io/badge/DALL·E-3-purple?style=flat-square)
@@ -78,7 +79,7 @@ logo-generator-cli/
 
 ## ✨ Exemple visuel
 
-![logo généré](https://yourdomain.com/trknlog_1.png)
+![logo généré](https://github.com/trh4ckn0n/trkn-dalletxt/blob/main/file-UETRhDsEArgP4nvX2cuFBF.WEBP)
 
 ---
 
