@@ -1,0 +1,11 @@
+{
+  "logo_trhacknon": {
+    "nom_logo": "TRHACKNON",
+    "nombre_logo": 1,
+    "couleur_rgb": [0, 255, 0],
+    "texte_overlay": "Hack the System",
+    "style": "Cyberpunk Hacker",
+    "glitch": true,
+    "taille_police": 120
+  }
+}
