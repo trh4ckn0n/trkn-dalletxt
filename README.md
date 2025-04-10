@@ -79,7 +79,7 @@ logo-generator-cli/
 
 ## ✨ Exemple visuel
 
-![logo généré](https://github.com/trh4ckn0n/trkn-dalletxt/blob/main/file-UETRhDsEArgP4nvX2cuFBF.WEBP)
+![logo généré](https://github.com/trh4ckn0n/trkn-dalletxt/blob/main/trknlog_1%20(2).png)
 
 ---
 
