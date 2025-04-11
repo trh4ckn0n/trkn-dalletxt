@@ -5,8 +5,16 @@ from presets import (
     obtenir_personnalisation,
     generer_logo_dalle
 )
+from rich.console import Console
+from rich.text import Text
+
+# Initialisation de la console rich
+console = Console()
 
 def afficher_menu():
+    # Affichage du titre avec Rich
+    console.print("[bold green]TRHACKNON[/bold green] [bold yellow]DALL-E 3 Logo Generator[/bold yellow]\n", style="bold cyan")
+    
     while True:
         choix = input(
             "\n=== MENU PRINCIPAL ===\n"
@@ -28,10 +36,10 @@ def afficher_menu():
         elif choix == "4":
             supprimer_preset()
         elif choix == "5":
-            print("À bientôt !")
+            console.print("[bold red]À bientôt ![/bold red]", style="bold yellow")
             break
         else:
-            print("❌ Choix invalide. Réessaye.")
+            console.print("[bold red]❌ Choix invalide. Réessaye.[/bold red]", style="bold white")
 
 if __name__ == "__main__":
     afficher_menu()
