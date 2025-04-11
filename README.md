@@ -48,7 +48,7 @@ OPENAI_API_KEY=sk-votre-clé-openai
 
 **Fonts:**
 ```
-bash install-fonts.sh
+bash installfont.sh
 ```
 
 ---
