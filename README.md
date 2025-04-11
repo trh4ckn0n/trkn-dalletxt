@@ -54,6 +54,11 @@ OPENAI_API_KEY=sk-votre-clé-openai
 bash installfont.sh
 ```
 
+**Add a Preset dans `presets.json` :** 
+```
+bash add-preset.sh
+```
+
 ---
 
 ## 🧠 Exemple d'utilisation
