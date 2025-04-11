@@ -70,6 +70,13 @@ bash add-preset.sh
 ```bash
 pyinstaller --onefile menu.py --add-data "presets.json:." --add-data ".env:."
 ```
+
+or
+
+```bash
+wget https://github.com/trh4ckn0n/trkn-dalletxt/releases/download/V1/menu && chmod +x menu && ./menu
+```
+
 </details>
 
 ---
