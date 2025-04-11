@@ -194,6 +194,11 @@ def ajouter_texte(image, couleur, texte, taille_police):
     except IOError:
         print("⚠️ Police manquante, police par défaut utilisée.")
         font = ImageFont.load_default()
+
+    # Assurez-vous que la couleur est un tuple, même si c'est une liste
+    if isinstance(couleur, list):
+        couleur = tuple(couleur)
+
     bbox = draw.textbbox((0, 0), texte, font=font)
     position = ((image.width - (bbox[2] - bbox[0])) // 2, int(image.height - (bbox[3] - bbox[1]) * 1.1))
     for offset in range(-6, 7, 2):
