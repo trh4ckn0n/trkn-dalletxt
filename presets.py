@@ -183,7 +183,7 @@ def generer_logo_dalle(preset):
 def appliquer_effets(image, couleur, texte, taille):
     image = ImageEnhance.Contrast(image).enhance(1.8)
     image = ajouter_texte(image, couleur, texte, taille)
-    image = image.filter(ImageFilter.GaussianBlur(0.5))
+    image = image.filter(ImageFilter.GaussianBlur(0.5))  # Améliorer le flou pour un meilleur effet glitch
     return image
 
 def ajouter_texte(image, couleur, texte, taille_police):
@@ -201,6 +201,8 @@ def ajouter_texte(image, couleur, texte, taille_police):
 
     bbox = draw.textbbox((0, 0), texte, font=font)
     position = ((image.width - (bbox[2] - bbox[0])) // 2, int(image.height - (bbox[3] - bbox[1]) * 1.1))
+
+    # Appliquer un effet de "glitch" en décalant le texte
     for offset in range(-6, 7, 2):
         draw.text((position[0] + offset, position[1] + offset), texte, font=font, fill=(255, 255, 255))
     draw.text(position, texte, font=font, fill=couleur)
