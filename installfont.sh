@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Chemin du fichier zip
-ZIP_FILE="uploads.zip"
+ZIP_FILE="uploads-fonts.zip"
 
 # Dossier de destination pour extraire les fichiers
 DEST_DIR="uploads"
