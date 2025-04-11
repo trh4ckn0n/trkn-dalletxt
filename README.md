@@ -61,6 +61,12 @@ bash installfont.sh
 bash add-preset.sh
 ```
 
+### Compiler (facultatif)
+
+```bash
+pyinstaller --onefile --add-data "presets.json:." menu.py
+```
+
 ---
 
 ## 🧠 Exemple d'utilisation
