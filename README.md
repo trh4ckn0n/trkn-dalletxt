@@ -2,6 +2,9 @@
 
 ![logo généré](https://github.com/trh4ckn0n/trkn-dalletxt/blob/main/file-UETRhDsEArgP4nvX2cuFBF.WEBP)
 
+![screenshot](https://g.top4top.io/p_3387221po0.jpg)
+
+
 Générateur de logos automatisés en ligne de commande via DALL·E 3 & Python.
 
 
