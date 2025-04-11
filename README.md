@@ -105,9 +105,12 @@ logo-generator-cli/
 │
 ├── menu.py                 # Menu principal
 ├── presets.py              # Logique de génération + gestion
+├── add-preset.sh           # Ajouter un modele prédéfini a presets.json interactivement
+├── installfont.sh          # Ajoutez des polices dans uploads/ a partir de l'archive zip uploads-fonts.zip
 ├── presets.json            # Modèles sauvegardés (auto)
-├── uploads/
+├── uploads/                # Dossier contenant les polices perso
 │   └── Glitch_Paradise.ttf # Police glitch personnalisée
+│   └── *.ttf
 ├── .env                    # Clé API OpenAI
 ├── README.md               # Ce fichier
 ```
