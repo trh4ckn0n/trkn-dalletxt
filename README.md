@@ -49,7 +49,11 @@ pip install -r requirements.txt
 OPENAI_API_KEY=sk-votre-clé-openai
 ```
 
+---
+
 # Facultatifs :
+<details>
+<summary><strong>Facultatif (compile, install fonts, generate preset, ...)</strong></summary>
 
 **Fonts:**
 ```
@@ -66,6 +70,7 @@ bash add-preset.sh
 ```bash
 pyinstaller --onefile --add-data "presets.json:." menu.py
 ```
+</details>
 
 ---
 
