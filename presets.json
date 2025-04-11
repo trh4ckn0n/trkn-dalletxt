@@ -7,5 +7,14 @@
     "style": "Cyberpunk Hacker",
     "glitch": true,
     "taille_police": 220
-  }
+  },
+  "logo_trkn": {
+    "nom_logo": "ANONYMOUS",
+    "nombre_logo": 1,
+    "couleur_rgb": [0, 255, 0],
+    "texte_overlay": "WE ARE LEGION",
+    "style": "Cyberpunk Hacker",
+    "glitch": true,
+    "taille_police": 180
+  }  
 }
