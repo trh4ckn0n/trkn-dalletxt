@@ -46,6 +46,11 @@ pip install -r requirements.txt
 OPENAI_API_KEY=sk-votre-clé-openai
 ```
 
+**Fonts:**
+```
+bash install-fonts.sh
+```
+
 ---
 
 ## 🧠 Exemple d'utilisation
