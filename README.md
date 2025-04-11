@@ -68,7 +68,7 @@ bash add-preset.sh
 ### Compiler (facultatif)
 
 ```bash
-pyinstaller --onefile --add-data "presets.json:." menu.py
+pyinstaller --onefile menu.py --add-data "presets.json:." --add-data ".env:."
 ```
 </details>
 
