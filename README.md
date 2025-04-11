@@ -109,7 +109,7 @@ logo-generator-cli/
 ├── installfont.sh          # Ajoutez des polices dans uploads/ a partir de l'archive zip uploads-fonts.zip
 ├── presets.json            # Modèles sauvegardés (auto)
 ├── dist/                   # Dossier contenant l'executable apres avoir compiler avec pyinstaller
-    └── menu                # Executable
+│   └── menu                # Executable
 ├── uploads/                # Dossier contenant les polices perso
 │   └── Glitch_Paradise.ttf # Police glitch personnalisée
 │   └── *.ttf
