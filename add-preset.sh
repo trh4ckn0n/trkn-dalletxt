@@ -5,14 +5,27 @@ PRESETS_FILE="presets.json"
 
 # Fonction pour ajouter un nouveau preset
 ajouter_preset() {
-  # Demander à l'utilisateur les informations du nouveau preset
-  read -p "Nom du logo : " nom_logo
-  read -p "Nombre de logos : " nombre_logo
-  read -p "Couleur (rouge, vert, bleu) : " couleur
-  read -p "Texte à afficher : " texte_overlay
-  read -p "Style (Cyberpunk Hacker, Futurisme Technologique, Dark Fantasy Hacker) : " style
-  read -p "Effet glitch (true/false) : " glitch
-  read -p "Taille de la police : " taille_police
+  # Demander à l'utilisateur les informations du nouveau preset avec des valeurs par défaut
+  read -p "Nom du logo (par défaut 'TRHACKNON') : " nom_logo
+  nom_logo=${nom_logo:-"TRHACKNON"}
+
+  read -p "Nombre de logos (par défaut 1) : " nombre_logo
+  nombre_logo=${nombre_logo:-1}
+
+  read -p "Couleur (rouge, vert, bleu, par défaut vert) : " couleur
+  couleur=${couleur:-"vert"}
+
+  read -p "Texte à afficher (par défaut 'Hack the System') : " texte_overlay
+  texte_overlay=${texte_overlay:-"Hack the System"}
+
+  read -p "Style (Cyberpunk Hacker, Futurisme Technologique, Dark Fantasy Hacker, par défaut 'Cyberpunk Hacker') : " style
+  style=${style:-"Cyberpunk Hacker"}
+
+  read -p "Effet glitch (true/false, par défaut true) : " glitch
+  glitch=${glitch:-"true"}
+
+  read -p "Taille de la police (par défaut 220) : " taille_police
+  taille_police=${taille_police:-220}
 
   # Définir la couleur RGB selon le choix
   case $couleur in
