@@ -75,6 +75,12 @@ pyinstaller --onefile --add-data "presets.json:." menu.py
 python menu.py
 ```
 
+## Utilisation compilé
+
+```
+./dist/menu
+```
+
 > Utilisez les flèches pour naviguer dans le menu, choisissez un style, un texte, une couleur... et laissez faire la magie.
 
 ---
